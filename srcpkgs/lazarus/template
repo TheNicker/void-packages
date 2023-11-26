@@ -1,9 +1,9 @@
 # Template file for 'lazarus'
 pkgname=lazarus
-version=2.2.0
-revision=1
+version=2.2.6
+revision=0
 # For adding a revision suffix to version on the source tarball file
-_version_revision_suffix="-0"
+_version_revision_suffix="0"
 archs="x86_64 i686"
 hostmakedepends="fpc rsync"
 makedepends="fpc-src qt5pas-devel"
@@ -12,8 +12,8 @@ short_desc="Delphi-like IDE for FreePascal"
 maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, MPL-2.0, LGPL-2.0-or-later"
 homepage="http://www.lazarus.freepascal.org"
-distfiles="${SOURCEFORGE_SITE}/project/lazarus/Lazarus%20Zip%20_%20GZip/Lazarus%20${version}/lazarus-${version}${_version_revision_suffix}.tar.gz"
-checksum=b6b5d516511e3dfb34910d7656db068d4bba80f009692500aebbcae79cb12160
+distfiles="${SOURCEFORGE_SITE}/project/lazarus/Lazarus%20Zip%20_%20GZip/Lazarus%20${version}/lazarus-${version}-${_version_revision_suffix}.tar.gz"
+checksum=39f4cf98c0a94b39a058e733baa62f1c1d5dcfa6599dc57bc5efc4c0d08c485c
 nopie=yes
 lib32disabled=yes
 
